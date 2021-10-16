@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    height: 500px;
+} */
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 2px solid hsl(27, 91%, 69%);;
+    background-color: hsl(36, 96%, 72%);
+    padding: 20px;
+    width: 97%;
+}
+section{
+    margin-right: 2%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+#one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #62306d;
+    flex-grow: 1;
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+#purple{   
+    margin: 10%;
+    justify-content: center;   
+
+}
+#up{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #f7ec7d;
+}
+.down{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color:#f7ec7d ;
+}
+.flag{
+    width: 60px;
+    height: 60px;
+    flex-direction: row;
+}
+#two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e3516e;
+    flex-grow: 1;
+    width: 100%;
+}
+#part-1{
+    border-top-left-radius: 100%;
+    background-color:#51b5a9 ;
+}
+#part-2{
+    border-top-right-radius: 100%;
+    background-color: #fade8b;
+}
+#part-3{
+    border-bottom-left-radius: 100%;
+    background-color:#f7f3d7 ;
+}
+.row-circle{
+    display:flex;
+    flex-direction: row;
+}
+.row-circle div{
+    width: 65px;
+    height: 65px;
+}
+#three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191210;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+/* .row-alien{   
+    width: 100px;
+    height: 60px;
+    border: 8px solid #eca03d;
+    border-radius: 50%;
+}
+/* #black div{
+    border: 1px solid white;
+} */
+/* .short{
+    width:9px;
+    height: 9px;
+    border-bottom-right-radius: 100%;
+}
+.big{
+    width: 12px;
+    height: 12px;
+}  */
+#black{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 220px;
+    height: 120px;
+}
+#big{
+    border:16px solid #eca03d;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#small{
+    border: 20px solid #84271c;
+    border-radius: 50%;
+    width:4px;
+    height:4px;
+    background-color: #84271c;
+}
+#three{
+    display: flex;
+    justify-content: center;
+}
+.halb{
+    border: 8px solid #eca03d;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+}
+
+
